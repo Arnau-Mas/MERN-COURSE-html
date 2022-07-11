@@ -7,3 +7,16 @@ h1 {
     color: brown;
 }
  
+h1.fnt-red {
+    color: red;
+}
+    
+.fnt-blue {
+    color: blue;
+}
+    
+#nombre_alumno {
+    color: red;
+    text-decoration: underline;
+}
+    
