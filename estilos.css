@@ -38,24 +38,44 @@ h1.fnt-red {
 
 .bicis{
     display: flex;
-    gap: 1em;
+    gap: 1rem;
 }
 
 .biciSection{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 200px;
-    height: 300px;
+    height: 350px;
+    border-radius: 0.5rem 0.5rem;
 }
+
+.biciImage{
+    height: 60%;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.biciInfo{
+    height: 30%;
+}
+
 .iconSection{
     background-color: white;
     display: flex;
     justify-content:space-around;
-    padding: 0.5em;
+    padding: 0.5rem;
+    height: 10%;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.iconHeart{
+    width: 20px;
+    fill: rgba(255, 0, 0, 0.557);
 }
 
 .iconChat{
     width: 20px;
-    fill: red;
+    fill: rgb(20, 191, 148);
 }
