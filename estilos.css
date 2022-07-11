@@ -19,4 +19,19 @@ h1.fnt-red {
     color: red;
     text-decoration: underline;
 }
-    
+
+.titulo {
+    color:rgb(127, 210, 255);
+    font-size: 30px;
+    font-style: italic;
+}
+
+.texto {
+    color: rgb(46, 46, 180);
+    font-size: 15px;
+}
+
+.destacado {
+    font-style: italic;
+    font-weight: bold;
+}
