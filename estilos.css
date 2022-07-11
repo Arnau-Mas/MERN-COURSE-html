@@ -35,3 +35,27 @@ h1.fnt-red {
     font-style: italic;
     font-weight: bold;
 }
+
+.bicis{
+    display: flex;
+    gap: 1em;
+}
+
+.biciSection{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 200px;
+    height: 300px;
+}
+.iconSection{
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    padding: 0.5em;
+}
+
+.iconChat{
+    width: 20px;
+    fill: red;
+}
