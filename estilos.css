@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     padding: 50px;
     background-color: beige;
@@ -5,6 +12,7 @@ body {
 
 h1 {
     color: brown;
+    padding-top: 1.5rem;
 }
  
 h1.fnt-red {
@@ -48,10 +56,11 @@ h1.fnt-red {
     width: 200px;
     height: 350px;
     border-radius: 0.5rem 0.5rem;
+    margin-top: 1.5rem;
 }
 
 .biciImage{
-    height: 60%;
+    height: 70%;
     padding: 0.3rem;
     border-radius: 0.5rem;
     object-fit: cover;
@@ -59,6 +68,28 @@ h1.fnt-red {
 
 .biciInfo{
     height: 30%;
+    padding: 0.5rem;
+    padding-left: 0.7rem;
+
+}
+
+.biciInfo h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.biciInfo h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+.biciInfo p{
+    font-family: 'Open Sans', 
+    sans-serif;
+    margin-top: 0.4rem;
+    font-size: 12.5px;
+    color: rgb(113, 113, 113);
+    font-weight: 400;
 }
 
 .iconSection{
