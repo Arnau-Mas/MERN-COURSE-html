@@ -314,3 +314,26 @@ h1.fnt-red {
 ul.customList{
     list-style: none;
 }
+
+.tableMainDiv{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tableDiv{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    padding: 5rem;
+}
+
+.firstTr{
+    background-color: aquamarine;
+}
+
+.secondTr{
+}
