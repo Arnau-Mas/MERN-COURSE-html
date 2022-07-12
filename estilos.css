@@ -39,6 +39,10 @@ h1.fnt-red {
     font-size: 15px;
 }
 
+.mt1{
+    margin-top: 1.5rem;
+}
+
 .destacado {
     font-style: italic;
     font-weight: bold;
@@ -84,8 +88,7 @@ h1.fnt-red {
 }
 
 .biciInfo p{
-    font-family: 'Open Sans', 
-    sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 0.4rem;
     font-size: 12.5px;
     color: rgb(113, 113, 113);
