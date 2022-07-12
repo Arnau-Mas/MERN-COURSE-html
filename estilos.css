@@ -306,3 +306,11 @@ h1.fnt-red {
     justify-content: center;
     margin-top: 40px;
 }
+
+.customList{
+    margin-top: 10px;
+}
+
+ul.customList{
+    list-style: none;
+}
