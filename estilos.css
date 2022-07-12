@@ -337,3 +337,39 @@ ul.customList{
 
 .secondTr{
 }
+
+.campo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+
+.fila{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila div{
+    height: 100%;
+    width: 100%;
+    background-color:grey;
+}
+
+.fila div:hover{
+    background-color: green;
+}
+
+.fila .mina:hover{
+    background-color: red;
+}
