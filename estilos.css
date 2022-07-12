@@ -159,3 +159,78 @@ h1.fnt-red {
     align-items: center;
     justify-content: center;
 }
+
+.contenidor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.divPare{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.divPrincipal{
+    height: 200px;
+    width: 50%;
+    background-color:#A52A2A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+}
+
+.rodona1{
+    height: 80px;
+    width: 80px;
+    border: 5px #A52A2A solid;
+    border-radius: 50%;
+    position: absolute;
+    left: -15%;
+    top: 77%;
+    background-color: beige;
+}
+
+.rodona2{
+    height: 80px;
+    width: 80px;
+    border: 5px #A52A2A solid;
+    border-radius: 50%;
+    position: absolute;
+    right: -15%;
+    top: 77%;
+    background-color: beige;
+}
+
+.rodona3{
+    height: 80px;
+    width: 80px;
+    border: 5px #A52A2A solid;
+    border-radius: 50%;
+    position: absolute;
+    left: -15%;
+    bottom: 77%;
+    background-color: beige;
+
+}
+
+.rodona4{
+    height: 80px;
+    width: 80px;
+    border: 5px #A52A2A solid;
+    border-radius: 50%;
+    position: absolute;
+    right: -15%;
+    bottom: 77%;
+    background-color: beige;
+
+}
