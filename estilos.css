@@ -387,3 +387,24 @@ ul.customList{
 .text9 p::first-line{
     color: #A52A2A;
 }
+
+/* Ejercicio 10 */
+#parrafoId{
+    color: blue;
+}
+
+.parrafoClase{
+    color: #A52A2A;
+}
+
+div.contenedor p{
+    background-color: bisque;
+}
+
+div.contenedor>p{
+    background-color: aquamarine;
+}
+
+.contenedor * {
+    font-family: 'Courier New', Courier, monospace;
+}
