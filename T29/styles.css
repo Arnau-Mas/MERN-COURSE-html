@@ -97,6 +97,13 @@ header h1 span{
     font-size: 1.4rem;
 }
 
+.mainContent article h5{
+    color:  #BF823B;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+}
+
 .mainContent article p{
     font-size: 0.9rem;
 }
@@ -106,12 +113,11 @@ header h1 span{
 }
 
 footer{
-    display: flex;
-    justify-content: center;
     font-size: 0.8em;
     color: rgb(210, 210, 210);
     font-style: italic;
-    padding: 0.7rem 0 0.7rem 0;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    text-align: center;
 }
 
 footer span {
