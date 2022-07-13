@@ -23,13 +23,14 @@ header h1{
 }
 
 .mainContent{
+    padding: 1rem;
     display: flex;
+    gap: 1.5rem;
     flex-direction: row;
     justify-content: flex-start;
 }
 
 .mainContent nav{
-    width: 15%;
     display: flex;
     justify-content: center;
     /* background-color: aqua; */
@@ -39,23 +40,29 @@ header h1{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    width: 65%;
     color: rgb(59, 59, 59);
 
 }
 
-.mainContent nav ul li:nth-child(1){
-    color: black;
-}
-
 .mainContent li{
     list-style: none;
-    height: 2rem;
-    background-color: greenyellow;
+   /*  height: 2rem;
+    background-color: greenyellow; */
     border: 1px solid rgba(128, 128, 128, 0.447);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.mainContent li a{
+    display: block;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 35%, rgb(133, 255, 76) 100%);
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+
+.mainContent li a:hover{
+    outline: none;
 }
 
 .mainContent article{
