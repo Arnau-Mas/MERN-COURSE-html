@@ -12,14 +12,14 @@
     font-weight: bold;
     text-align: center;
     padding: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .cuadratRed{
     background-color: red;
     width: 100%;
     padding: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     color: white;
     text-align: center;
     font-size: 20px;
