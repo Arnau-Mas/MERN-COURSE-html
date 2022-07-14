@@ -13,6 +13,7 @@
     text-align: center;
     padding: 20px;
     /* margin-bottom: 20px; */
+    /* També per centrar el text, enlloc de donar-li padding, pots posar line-height per centrar el text, mateixos pixels que altura. Només quan hi ha una línia de text. */
 }
 
 .cuadratRed{
